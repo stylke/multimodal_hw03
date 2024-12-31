@@ -1,0 +1,26 @@
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_setup.py:_flush():68] Configure stats pid to 27600
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_setup.py:_flush():68] Loading settings from C:\Users\28334\.config\wandb\settings
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_setup.py:_flush():68] Loading settings from D:\multi_modal\hw03\mml-assignment3-main\mml\wandb\settings
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-14 14:06:46,193 INFO    MainThread:27600 [wandb_init.py:_log_setup():528] Logging user logs to D:\multi_modal\hw03\mml-assignment3-main\mml\wandb\run-20241214_140646-itnzi2xq\logs\debug.log
+2024-12-14 14:06:46,194 INFO    MainThread:27600 [wandb_init.py:_log_setup():529] Logging internal logs to D:\multi_modal\hw03\mml-assignment3-main\mml\wandb\run-20241214_140646-itnzi2xq\logs\debug-internal.log
+2024-12-14 14:06:46,194 INFO    MainThread:27600 [wandb_init.py:init():644] calling init triggers
+2024-12-14 14:06:46,194 INFO    MainThread:27600 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'clip_model': 'openai/clip-vit-large-patch14', 'text_model': 'gpt2-medium', 'seed': 100, 'num_workers': 2, 'train_size': 69537, 'val_size': 10761, 'epochs': 120, 'lr': 0.005, 'k': 0.3, 'batch_size_exp': 5, 'ep_len': 4, 'num_layers': 5, 'n_heads': 16, 'forward_expansion': 4, 'max_len': 40, 'dropout': 0.08, 'weights_dir': 'weights\\large', 'test_size': 2485}
+2024-12-14 14:06:46,195 INFO    MainThread:27600 [wandb_init.py:init():680] starting backend
+2024-12-14 14:06:46,195 INFO    MainThread:27600 [wandb_init.py:init():684] sending inform_init request
+2024-12-14 14:06:46,232 INFO    MainThread:27600 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-14 14:06:46,233 INFO    MainThread:27600 [wandb_init.py:init():697] backend started and connected
+2024-12-14 14:06:46,234 INFO    MainThread:27600 [wandb_init.py:init():790] updated telemetry
+2024-12-14 14:06:46,237 INFO    MainThread:27600 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2024-12-14 14:06:46,245 WARNING MsgRouterThr:27600 [router.py:message_loop():75] message_loop has been closed
+2024-12-14 14:06:51,275 ERROR   MainThread:27600 [wandb_init.py:init():1308] error in wandb.init()
+Traceback (most recent call last):
+  File "D:\anaconda\envs\mm\lib\site-packages\wandb\sdk\wandb_init.py", line 1298, in init
+    return wi.init()
+  File "D:\anaconda\envs\mm\lib\site-packages\wandb\sdk\wandb_init.py", line 825, in init
+    result = run_init_handle.wait(
+  File "D:\anaconda\envs\mm\lib\site-packages\wandb\sdk\lib\mailbox.py", line 277, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed

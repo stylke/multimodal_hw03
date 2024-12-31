@@ -1,0 +1,3 @@
+{"time":"2024-12-14T14:06:46.2359303+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T14:06:46.2359303+08:00","level":"INFO","msg":"created symlink","path":"D:\\multi_modal\\hw03\\mml-assignment3-main\\mml\\wandb\\run-20241214_140646-itnzi2xq\\logs\\debug-core.log"}
+{"time":"2024-12-14T14:06:46.2368178+08:00","level":"ERROR+4","msg":"stream_init: failed to fetch credentials: couldn't get API key: settings: failed to get API key from netrc: open C:\\Users\\28334\\_netrc: The system cannot find the file specified."}
